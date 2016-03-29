@@ -1,7 +1,12 @@
 # cauj
 Computer Architecture Project 1 Unofficial Judge
 
-Usage:
+## Requirements
+
+* linux machine
+* python 3.4 or later
+
+## Usage
 
 Clone this repo and then:
 `./cauj.py path/to/single_cycle`
@@ -13,7 +18,7 @@ type `./cauj.py --help` for more options
 
 The automatic diff may take a lot of time. Use `--limit-diff 0` to disable diff.
 
-Typical output
+## Typical output
 
 ```
 ...
