@@ -2,6 +2,8 @@
 Computer Architecture Project 1 Unofficial Judge
 
 Usage:
+
+Clone this repo and then:
 `./cauj.py path/to/single_cycle`
 
 or at the project directory:
