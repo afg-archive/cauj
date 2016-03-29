@@ -209,9 +209,9 @@ def main(executable, limit_diff, mute, repeat, reduce, timeout, these):
     print('Total time of passed tests:', total_time)
     if errored:
         print('Errored:')
-        print(*errored, sep='\t')
+        print(*errored)
     if failed:
-        print('Failed:', sep='\t')
+        print('Failed:')
         print(*failed)
 
 
