@@ -15,6 +15,9 @@ import time
 import statistics
 
 
+basedir = os.path.abspath(os.path.dirname(__file__))
+
+
 class TestCaseError(Exception):
     pass
 
@@ -136,7 +139,7 @@ def udiff(fromfile, tofile, limit_lines):
 
 
 def discover_testcases():
-    for dirname in glob.iglob('testcases/*/*/'):
+    for dirname in glob.iglob(os.path.join(basedir, 'testcases/*/*/')):
         yield TestCase(dirname)
 
 
@@ -168,7 +171,7 @@ def main(executable, limit_diff, mute, repeat, reduce, timeout, these):
     else:
         testcases = sorted(discover_testcases(), key=lambda x: x.directory)
     print(len(testcases), 'testcases found')
-    golden = Simulator('vendor/single_cycle', 'gold')
+    golden = Simulator(os.path.join(basedir, 'vendor/single_cycle'), 'gold')
     total_time = 0
     passed_count = 0
     failed = []
