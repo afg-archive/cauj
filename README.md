@@ -3,7 +3,7 @@ Computer Architecture Project 1 Unofficial Judge
 
 ## Requirements
 
-* linux machine
+* linux machine that can run TA's `single_cycle`
 * python 3.4 or later
 
 ## Usage
