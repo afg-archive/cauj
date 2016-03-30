@@ -15,7 +15,23 @@ or at the project directory:
 
 type `./cauj.py --help` for more options
 
-The automatic diff may take a lot of time. Use `--limit-diff 0` to disable diff.
+## Options
+
+`--mute` disables executable's stdout and stderr.
+
+`--diff` show diff when the output is incorrect.
+
+`--diff=N` show diff when the output is incorrect, but limit diff's output to N lines.
+
+`--timeout SECONDS` time limit on each testcase, defaults to 5.
+
+`--repeat` repeat each testcase N times. defaults to 1.
+
+`--avg` use average execution time for a testcase when a testcase is run multiple times.
+
+`--min` use minimum execution time for a testcase when a testcase is run multiple times.
+
+`--max` use maximum execution time for a testcase when a testcase is run multiple times.
 
 ## Typical output
 
@@ -38,7 +54,7 @@ Running /home/afg/simulator/single_cycle
 => snapshot.rpt   Differ
 -> error_dump.rpt OK
 =================================== SUMMARY ===================================
-45/68 testcases passed
+45/75 testcases passed
 Total time of passed tests: 1.9783899784088135
 Errored:
 103062108_01 103062114_01 103062214_01 103062372_01

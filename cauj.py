@@ -225,52 +225,74 @@ if __name__ == '__main__':
         'testcases',
         metavar='TESTCASE',
         nargs='*',
-        help='testcases to run. default: all'
+        help='testcases to run. defaults to all testcases if not specified',
     )
     parser.add_argument(
         '--mute',
         action='store_true',
-        help="don't show executable's stdout and stderr",
+        help="don't show executable's stdout and stderr.",
     )
     parser.add_argument(
-        '--limit-diff',
+        '--diff',
         metavar='N',
-        help='limit diff output lines to N. set this to 0 to disable diff output, defaults: unlimited',
+        nargs='?',
+        help=(
+            'show diff output when the output is incorrect. '
+            'optional: limit diff output to N lines, '
+            'if N is not provided, the output is unlimited.'
+        ),
         type=int,
-        default=None,
+        default=0,
+        const=None,
+    )
+    parser.add_argument(
+        '--timeout',
+        metavar='SECONDS',
+        help='time limit on each test case',
+        type=float,
+        default=5,
     )
     parser.add_argument(
         '--repeat',
         metavar='N',
         type=int,
         default=1,
-        help='repeat the same testcase N times, defaults to 1'
+        help='repeat the same testcase N times, defaults to 1.'
     )
-    reduce_options = {
-        'average': statistics.mean,
-        'min': min,
-        'max': max,
-    }
-    parser.add_argument(
-        '--reduce',
-        help='use the average, minimum, maximum time of the same testcase. default: average',
-        choices=reduce_options,
-        default='average',
+
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
+        '--avg',
+        action='store_const',
+        dest='reduce',
+        const=statistics.mean,
+        default=statistics.mean,
+        help='use average execution time for the same testcase '
+            'when a testcase is run multiple times. '
+            'this is the default.',
     )
-    parser.add_argument(
-        '--timeout',
-        help='time limit on each test case',
-        type=float,
-        default=5,
+    group.add_argument(
+        '--min',
+        action='store_const',
+        dest='reduce',
+        const=min,
+        help='use minimum execution time for the same testcase.',
+    )
+    group.add_argument(
+        '--max',
+        action='store_const',
+        dest='reduce',
+        const=max,
+        help='use maximum execution time for the same testcase.',
     )
 
     args = parser.parse_args()
     main(
         args.executable,
-        args.limit_diff,
+        args.diff,
         args.mute,
         args.repeat,
-        reduce_options[args.reduce],
+        args.reduce,
         args.timeout,
         args.testcases
     )
