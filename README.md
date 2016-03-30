@@ -40,15 +40,11 @@ type `./cauj.py --help` for more options, or see below
 ...
 ...
 ================================= 103070038_01 ================================
-Running /home/afg/projects/cauj/vendor/single_cycle
--> gold returned 0 in 0.001803 seconds
 Running /home/afg/simulator/single_cycle
 -> user returned 0 in 0.003964 seconds
 -> snapshot.rpt   OK
 -> error_dump.rpt OK
 ================================ fd03357293_01 ================================
-Running /home/afg/projects/cauj/vendor/single_cycle
--> gold returned 1 in 0.004046 seconds
 Running /home/afg/simulator/single_cycle
 -> user returned 0 in 0.0043 seconds
 => snapshot.rpt   Differ
