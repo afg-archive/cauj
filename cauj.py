@@ -200,8 +200,14 @@ def main(executable, limit_diff, mute, repeat, reduce, timeout, these):
     passed_count = 0
     failed = []
     errored = []
-    for testcase in testcases:
-        print(' {} '.format(testcase.name).center(79, '='))
+    for n, testcase in enumerate(testcases, 1):
+        print(
+            '=== ({}/{}) {} '.format(
+                n,
+                len(testcases),
+                testcase.name
+            ).ljust(79, '=')
+        )
         user = Simulator(executable, 'user')
         times = []
         for i in range(repeat):
@@ -227,7 +233,7 @@ def main(executable, limit_diff, mute, repeat, reduce, timeout, these):
         else:
             passed_count += 1
             total_time += reduce(times)
-    print(' SUMMARY '.center(79, '='))
+    print('=== SUMMARY '.ljust(79, '='))
     print('{}/{} testcases passed'.format(passed_count, len(testcases)))
     print('Total time of passed tests:', total_time)
     if errored:
