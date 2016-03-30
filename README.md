@@ -21,7 +21,7 @@ type `./cauj.py --help` for more options, or see below
 
 `--diff` show diff when the output is incorrect.
 
-`--diff=N` show diff when the output is incorrect, but limit diff's output to N lines.
+`--diff N` show diff when the output is incorrect, but limit diff's output to N lines.
 
 `--timeout SECONDS` time limit on each testcase, defaults to 5.
 
