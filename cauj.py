@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
 
 import argparse
-import contextlib
 import difflib
 import filecmp
-import glob
 import itertools
 import os
 import shutil
@@ -13,6 +11,8 @@ import sys
 import tempfile
 import time
 import statistics
+import json
+import hashlib
 
 
 basedir = os.path.abspath(os.path.dirname(__file__))
@@ -31,14 +31,41 @@ class TestCase:
         self.directory = directory
         self.iimage = os.path.abspath(os.path.join(self.directory, 'iimage.bin'))
         self.dimage = os.path.abspath(os.path.join(self.directory, 'dimage.bin'))
+        self.errordump = os.path.abspath(os.path.join(self.directory, 'error_dump.rpt.gold'))
+        self.snapshot = os.path.abspath(os.path.join(self.directory, 'snapshot.rpt.gold'))
         self.name = os.path.basename(directory.rstrip('/'))
         self.check()
 
+    @staticmethod
+    def _check(path):
+        if not os.path.exists(path):
+            raise TestCaseError('{!r} does not exist'.format(path))
+
     def check(self):
-        if not os.path.exists(self.iimage):
-            raise TestCaseError('{!r} does not exist'.format(self.iimage))
-        if not os.path.exists(self.dimage):
-            raise TestCaseError('{!r} does not exist'.format(self.dimage))
+        self._check(self.iimage)
+        self._check(self.dimage)
+        self._check(self.errordump)
+        self._check(self.snapshot)
+
+    def get_sha1_checksums(self):
+        return {
+            'iimage.bin': sha1file(self.iimage),
+            'dimage.bin': sha1file(self.dimage),
+            'snapshot.rpt.gold': sha1file(self.snapshot),
+            'error_dump.rpt.gold': sha1file(self.errordump),
+        }
+
+    @classmethod
+    def from_metadata(cls, metadata):
+        self = cls(os.path.join(basedir, metadata['directory']))
+        checksums = self.get_sha1_checksums()
+        for name, value in metadata['sha1sums'].items():
+            if checksums[name] != value:
+                raise TestCaseError("TestCase {!s}'s {!s} is corrupted".format(
+                    self.name,
+                    name
+                ))
+        return self
 
     def __repr__(self):
         return '<TestCase {!r}>'.format(self.directory)
@@ -138,13 +165,13 @@ def udiff(fromfile, tofile, limit_lines):
             diffprint(line)
 
 
-def discover_testcases():
-    for dirname in glob.iglob(os.path.join(basedir, 'testcases/*/*/')):
-        yield TestCase(dirname)
+def sha1file(filename):
+    with open(filename, mode='rb') as file:
+        return hashlib.sha1(file.read()).hexdigest()
 
 
 def compare_and_diff(prefix, limit_lines):
-    fromfile = prefix
+    fromfile = prefix + '.gold'
     tofile = prefix + '.user'
     same = filecmp.cmp(fromfile, tofile, shallow=False)
     if same:
@@ -158,18 +185,16 @@ def compare_and_diff(prefix, limit_lines):
 
 
 def main(executable, limit_diff, mute, repeat, reduce, timeout, these):
+    with open(os.path.join(basedir, 'testcases.json')) as file:
+        testcase_dict = json.load(file)
     if these:
-        testcases_dict = {
-            testcase.name: testcase for testcase in discover_testcases()
-        }
-        testcases = []
         try:
-            for key in these:
-                testcases.append(testcases_dict[key])
-        except KeyError:
-            raise SystemExit('Error: unknown testcase {!r}'.format(key))
+            tcproducer = [testcase_dict[name] for name in these]
+        except KeyError as e:
+            raise SystemExit('Error: unknown testcase {!r}'.format(e.args[0]))
     else:
-        testcases = sorted(discover_testcases(), key=lambda x: x.directory)
+        tcproducer = testcase_dict.values()
+    testcases = [TestCase.from_metadata(md) for md in tcproducer]
     print(len(testcases), 'testcases found')
     total_time = 0
     passed_count = 0

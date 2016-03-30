@@ -1,0 +1,677 @@
+{
+  "101062201_01": {
+    "directory": "testcases/2-Student_valid_testcase/101062201_01",
+    "sha1sums": {
+      "dimage.bin": "d88f4160351a7ceaa3c1a01f93f0725b963eadcc",
+      "error_dump.rpt.gold": "6d1c3e43f39359070efa933928028b09e270c6d8",
+      "iimage.bin": "8921d3ef3cf834da9c19e5b4817af7164fa96373",
+      "snapshot.rpt.gold": "ac3bda2f972e1ce97e183e824d96e45823e4175d"
+    }
+  },
+  "102000039_01": {
+    "directory": "testcases/2-Student_valid_testcase/102000039_01",
+    "sha1sums": {
+      "dimage.bin": "034e53cee4a6c88cebd0aa65e1ceccfa23857d90",
+      "error_dump.rpt.gold": "5050a3890ce457b40faa821f9e6d5d5d42e7c0e6",
+      "iimage.bin": "4322b7298b7238278527ffb2abbc15965e96535e",
+      "snapshot.rpt.gold": "9c24a98d3e97ff6eb8e66b0183c685fc2a632583"
+    }
+  },
+  "102021117_01": {
+    "directory": "testcases/2-Student_valid_testcase/102021117_01",
+    "sha1sums": {
+      "dimage.bin": "61689c98989c22289fbbd787433e73a8b3d6d784",
+      "error_dump.rpt.gold": "1bfc486b59fc3a434fe3cd2a5aae511864e56bbc",
+      "iimage.bin": "b7aea15ceadf89e0279845c007b3ac0560fa62e2",
+      "snapshot.rpt.gold": "4cc54a5a965ad2699a05c00ab446b1b9b1187bd0"
+    }
+  },
+  "102021219_01": {
+    "directory": "testcases/2-Student_valid_testcase/102021219_01",
+    "sha1sums": {
+      "dimage.bin": "9af26ebd68d4e4707ff194fc15c74aab644b4134",
+      "error_dump.rpt.gold": "c81f5855b31cd26953ec4d490002c409c4b02aec",
+      "iimage.bin": "c948fc2fca2eef6b74edddcbdde7a2ec1f4241c0",
+      "snapshot.rpt.gold": "e74bbe9d1d5b2b1111dedd4153db9d3e7b8192d5"
+    }
+  },
+  "102061152_01": {
+    "directory": "testcases/2-Student_valid_testcase/102061152_01",
+    "sha1sums": {
+      "dimage.bin": "4162019fd853fb06c2e3eb93e2ad5a82e86ee8cd",
+      "error_dump.rpt.gold": "5d8e4c87432d285fc8e723e0c512dc74919f7d1e",
+      "iimage.bin": "ad6901ec0191583725cef479a1625d04472507a7",
+      "snapshot.rpt.gold": "a0eb051141f2e7f26d627e388e7078401386c359"
+    }
+  },
+  "102062272_01": {
+    "directory": "testcases/2-Student_valid_testcase/102062272_01",
+    "sha1sums": {
+      "dimage.bin": "6c31c64fb272145d06f86e0bb1932a137a27d79b",
+      "error_dump.rpt.gold": "697a01a3b56df10ec2f13516cdde76ac702b7f5d",
+      "iimage.bin": "24d06e31b76ea8038371f99b5076b983105bcf54",
+      "snapshot.rpt.gold": "0354007d45877e34d7c42dee92f90a3a6d528c63"
+    }
+  },
+  "102065512_01": {
+    "directory": "testcases/2-Student_valid_testcase/102065512_01",
+    "sha1sums": {
+      "dimage.bin": "d6ad227efd124989a730273c640fd57c5fe32bf6",
+      "error_dump.rpt.gold": "30abd3c8130c1ddb3ae71d7684bd6a587cd1271c",
+      "iimage.bin": "2e818c27dfb0d92803b9e3970376e8215883693f",
+      "snapshot.rpt.gold": "22b082898f4e73c4826c5a7e2adbcf5509354d19"
+    }
+  },
+  "102070014_01": {
+    "directory": "testcases/2-Student_valid_testcase/102070014_01",
+    "sha1sums": {
+      "dimage.bin": "f17a765196624ecdea67fb57987a7a7bc314b2c7",
+      "error_dump.rpt.gold": "d66a8342446e9511d77e3a68c6856d2a01b1a4ed",
+      "iimage.bin": "bc5674ca7feb92dfaa40402d90d22e75ae9a7c7a",
+      "snapshot.rpt.gold": "c4b5cdafb049057d828fffa89ee021bfe4e56e74"
+    }
+  },
+  "102070020_01": {
+    "directory": "testcases/2-Student_valid_testcase/102070020_01",
+    "sha1sums": {
+      "dimage.bin": "84e36194ac282c9550c0c00c36584520ccae98c9",
+      "error_dump.rpt.gold": "84c69ab1db3ec949e95ecfaaee46154fa8f349bf",
+      "iimage.bin": "ae596b3f187a38c8fce9f1558a2ad00a02d2f4db",
+      "snapshot.rpt.gold": "2241d5a85e8e2ee5923c679076cdb17e5293d4b5"
+    }
+  },
+  "102070021_01": {
+    "directory": "testcases/2-Student_valid_testcase/102070021_01",
+    "sha1sums": {
+      "dimage.bin": "40f31cdb5e0bd82d84543f853d66725fe10c8071",
+      "error_dump.rpt.gold": "7e305f3ff9fa90830ab8bf46e8364cd548b13e3e",
+      "iimage.bin": "1aab0a9879ca291c17ac932f8b47e2e9e67053d3",
+      "snapshot.rpt.gold": "af309820468e0b361e49aff579a66697f0b79fca"
+    }
+  },
+  "102070028_01": {
+    "directory": "testcases/2-Student_valid_testcase/102070028_01",
+    "sha1sums": {
+      "dimage.bin": "ea9b770d970441c3d36308b1b4ec8b5b3b7ea5c6",
+      "error_dump.rpt.gold": "65d1d44e63f35bd465e7e506b47b1354d7984300",
+      "iimage.bin": "6cfa8e02a2b290b221b69e49b3f147230d67ca74",
+      "snapshot.rpt.gold": "468253d46e8bb0dfa9562a996d415f1a1674be0f"
+    }
+  },
+  "102072236_01": {
+    "directory": "testcases/2-Student_valid_testcase/102072236_01",
+    "sha1sums": {
+      "dimage.bin": "5f9bf673261e5a2bf23c1bdede542dc88426adc7",
+      "error_dump.rpt.gold": "a63194495c07c974578c009dfba1d6a1fa0b554d",
+      "iimage.bin": "4df10b0c6059693399e07b22e4ae85955277b83a",
+      "snapshot.rpt.gold": "6280fcb03fb0800aa19953d6ff8656c9ec13c2ac"
+    }
+  },
+  "102081005_01": {
+    "directory": "testcases/2-Student_valid_testcase/102081005_01",
+    "sha1sums": {
+      "dimage.bin": "2b220f0e01de2a1455b55d0fafbe8acfd9e4125b",
+      "error_dump.rpt.gold": "b0df4edf38909a3b736b963d0b80d5c203433019",
+      "iimage.bin": "2315ae392340c84e0409fb5c3f10cb6b41b17e2d",
+      "snapshot.rpt.gold": "2c7deb83283f96db9ba736f89bfaf22c3fec497f"
+    }
+  },
+  "103000099_01": {
+    "directory": "testcases/2-Student_valid_testcase/103000099_01",
+    "sha1sums": {
+      "dimage.bin": "e41d332d6a050ddd011dafa23a6fc5ada6dc889e",
+      "error_dump.rpt.gold": "6f4b3671f62c38fe2a9d18ccb2caabe6313be344",
+      "iimage.bin": "d26e0f8ac026690102b2fd5499dd27c080e02593",
+      "snapshot.rpt.gold": "2a828a7cc6404b67612066c8bb5b12072cde4ce5"
+    }
+  },
+  "103020022_01": {
+    "directory": "testcases/2-Student_valid_testcase/103020022_01",
+    "sha1sums": {
+      "dimage.bin": "ad7545701a2353fd278b81c9bb745f279069cff4",
+      "error_dump.rpt.gold": "808cd395e4b2f198c2b29ca8f5f1ea8611561264",
+      "iimage.bin": "bb70086f9bef19ef863b1a002faba035e0e423b3",
+      "snapshot.rpt.gold": "01e56e1c704c17d97f6e5763a02d3cf72b9f15d0"
+    }
+  },
+  "103033110_01": {
+    "directory": "testcases/2-Student_valid_testcase/103033110_01",
+    "sha1sums": {
+      "dimage.bin": "2214b9b9aa4006bdb277235da4712a9e9c9bf40e",
+      "error_dump.rpt.gold": "637562484019be3cec2c59cb966c1e291bb95093",
+      "iimage.bin": "25fa9d2cafb0ce2d97ffef37c6a35f08b416df9f",
+      "snapshot.rpt.gold": "e0d9b18999f50834c936f59cca3175b4bb18d60c"
+    }
+  },
+  "103060005_01": {
+    "directory": "testcases/2-Student_valid_testcase/103060005_01",
+    "sha1sums": {
+      "dimage.bin": "69245ff27049009ca3f791447384093486085ff1",
+      "error_dump.rpt.gold": "3a34290cb7f28dfbc38afec02c719bdc7a78b87a",
+      "iimage.bin": "e63f0502ea22632f93ec7897d334860d7d45e2ac",
+      "snapshot.rpt.gold": "7954fec75992439b57bdd1727987485beebd0a2f"
+    }
+  },
+  "103060006_01": {
+    "directory": "testcases/2-Student_valid_testcase/103060006_01",
+    "sha1sums": {
+      "dimage.bin": "94bcaaa9d6663e7717473555f868ab671ec8db66",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "c466d656aee23e515b7a296713a3531000435e5d",
+      "snapshot.rpt.gold": "298bd69b518fc8399f5026fcf5f13547ffb06aca"
+    }
+  },
+  "103060010_01": {
+    "directory": "testcases/2-Student_valid_testcase/103060010_01",
+    "sha1sums": {
+      "dimage.bin": "2b637c0033ef7a983c83ed6b4b6ed645b6d0c31f",
+      "error_dump.rpt.gold": "1de721c00b192a3d65eb801b447360d7f40e449f",
+      "iimage.bin": "6ba9793b78cbb012dbf3929997db7f5a5e8a74a3",
+      "snapshot.rpt.gold": "45e555ab893e330f73fc3536bd935220eadcc5c9"
+    }
+  },
+  "103060011_01": {
+    "directory": "testcases/2-Student_valid_testcase/103060011_01",
+    "sha1sums": {
+      "dimage.bin": "4fe89975aaf4dad9ff9bba08c0eb470097ed7a57",
+      "error_dump.rpt.gold": "574fe636ffd7f7a1ab4680929ea84d1015d00c0e",
+      "iimage.bin": "d90bb231bc48691a06c7b7ea3484e19c1847f8d0",
+      "snapshot.rpt.gold": "bc6b13d8b624a42b5717cc841efaf0b381248ce3"
+    }
+  },
+  "103060023_01": {
+    "directory": "testcases/2-Student_valid_testcase/103060023_01",
+    "sha1sums": {
+      "dimage.bin": "904d6db088a0767b975d81bf74d16894097ff492",
+      "error_dump.rpt.gold": "8c49362041afc7605c7ee52153f4ff4e49220a40",
+      "iimage.bin": "184727ffc84de76b52fa9da17f55c88ea630d27a",
+      "snapshot.rpt.gold": "57965ad4cdfda27e44d799ce024631945c1dc1a3"
+    }
+  },
+  "103062105_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062105_01",
+    "sha1sums": {
+      "dimage.bin": "a17ba989caadf16cf8fa183529e7bbb4101edd8c",
+      "error_dump.rpt.gold": "15e361c11a0876b103321a00b74777055905ef58",
+      "iimage.bin": "0911e5526b17d68c1437fdd5fd76782e4a5e8b72",
+      "snapshot.rpt.gold": "e86032d9e59a52fd5b53fae3d124b057365fb824"
+    }
+  },
+  "103062108_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062108_01",
+    "sha1sums": {
+      "dimage.bin": "891fcd35c7f328eb11801d65c916a97f4c2c3fb3",
+      "error_dump.rpt.gold": "015adf0f94fb1bae497bacb2383f78e0514c61de",
+      "iimage.bin": "190a96939393736b3fcd2ce890781769d728c6a7",
+      "snapshot.rpt.gold": "58da5374617616d33a0ea7e26a15b2e6b913688d"
+    }
+  },
+  "103062109_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062109_01",
+    "sha1sums": {
+      "dimage.bin": "c4fc2b67238fa03640ebc955b54a06d6cd2a2cbe",
+      "error_dump.rpt.gold": "d8a29e37607ed7cd166133f00289d57d9f8475a2",
+      "iimage.bin": "287d793d4b3c8398fb71222946bca12e7beb277f",
+      "snapshot.rpt.gold": "74db0701d0aaf1e1afa90cbb37ef2c04069f73f0"
+    }
+  },
+  "103062114_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062114_01",
+    "sha1sums": {
+      "dimage.bin": "e7e6b400e1b94c852816e4723d3279e510c81b12",
+      "error_dump.rpt.gold": "bbeb24d98d66e6d5568ad944d4963f9199939ba1",
+      "iimage.bin": "a23116e02ed13df6e9c24c711d104cfc87fe6bbc",
+      "snapshot.rpt.gold": "6cd26dcf8e9fe8c6e0fb0c168a733a9f19bf9695"
+    }
+  },
+  "103062120_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062120_01",
+    "sha1sums": {
+      "dimage.bin": "7dbba705e36effd749ec65a5608184bc093fde47",
+      "error_dump.rpt.gold": "c596a3bb661c3ead8aed6621cdc9c50cbd0ed1ea",
+      "iimage.bin": "4e676e1ad8d678f0d1e7772ca92ed27b995a7022",
+      "snapshot.rpt.gold": "dffdb9642a2647a569e6a29b72ebb44a7dffcd36"
+    }
+  },
+  "103062122_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062122_01",
+    "sha1sums": {
+      "dimage.bin": "548948f9b940e2faa2bd32132caedad1fa42670a",
+      "error_dump.rpt.gold": "8ab64daa8cde1b85b473a3f66ed8e0ce017c0b3f",
+      "iimage.bin": "dfc1c7a0021b96e069f7e18e7dd2f55d3788d4b9",
+      "snapshot.rpt.gold": "0057197eb5b3f909691aa226d2b9c11dd9e7f938"
+    }
+  },
+  "103062134_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062134_01",
+    "sha1sums": {
+      "dimage.bin": "de8a51f77c0985a902b38e062472048e314a3917",
+      "error_dump.rpt.gold": "f3c24d491b62bf45881e85b47f5aeb8535db2514",
+      "iimage.bin": "d52e2a09ccbb20f7375c60fa776d64bc66ade14d",
+      "snapshot.rpt.gold": "7c82c9b7965ad91e9cb72a77eab47787d7b148a4"
+    }
+  },
+  "103062135_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062135_01",
+    "sha1sums": {
+      "dimage.bin": "ffa3d52d381b94627ba3981f16e25d3abde7fc76",
+      "error_dump.rpt.gold": "ce9749a69ce9f5d8f5f72995f48032dbe42b0da6",
+      "iimage.bin": "42f1391081e67c55dc9c64ea9ff37525ef637547",
+      "snapshot.rpt.gold": "d6143ee4fdd2a29a251a7a0585735ca07f8a062e"
+    }
+  },
+  "103062138_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062138_01",
+    "sha1sums": {
+      "dimage.bin": "f4880485e9a9847f380ac241de39d6c369126dd9",
+      "error_dump.rpt.gold": "500334de816b4eadd451ec1254279762e8875936",
+      "iimage.bin": "1c5016ca2bf37f84e96e2fda6692e8506f891b0e",
+      "snapshot.rpt.gold": "240d1fcdd6f3e1e24ae0be54c2e9b282ba23d5f6"
+    }
+  },
+  "103062143_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062143_01",
+    "sha1sums": {
+      "dimage.bin": "42edc05f03b2a4ef0482af35fda443dcf4f9ccc9",
+      "error_dump.rpt.gold": "d1db2e0adf1e706130fff0b2f76d2b5c3112ec33",
+      "iimage.bin": "b7e25a140fdcede975fe8058757e31c8ed7ea665",
+      "snapshot.rpt.gold": "b68c05330c57bea44a1a4136b88303230dda489d"
+    }
+  },
+  "103062161_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062161_01",
+    "sha1sums": {
+      "dimage.bin": "292a1c7259a3ac4d3875b9b3c004cc3ac79604f0",
+      "error_dump.rpt.gold": "a1fe05d99837119f7a63c43652aef5170175bee6",
+      "iimage.bin": "c14c934ac4b1edb670aaee7b589cc825e513e030",
+      "snapshot.rpt.gold": "561bb0f989a14d04e58b94c512497bfb27fb21b6"
+    }
+  },
+  "103062173_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062173_01",
+    "sha1sums": {
+      "dimage.bin": "79a40767ae2d8a04447a23910cd52829cde595d5",
+      "error_dump.rpt.gold": "6fcfb5131174ec5915ce2216ba265831dba062b5",
+      "iimage.bin": "61d23bf51705fa8f5c38eeb7684ad3ac005b94d7",
+      "snapshot.rpt.gold": "c55865242a445fa772d96760e8eb31e904e34ed1"
+    }
+  },
+  "103062206_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062206_01",
+    "sha1sums": {
+      "dimage.bin": "aa226313ace319de75e2c2fdadcae606ac2c6482",
+      "error_dump.rpt.gold": "665a07fbdf133a94c8fc1d7ced06a7c6e33f3669",
+      "iimage.bin": "905055cd8d039d6c3c4107faf638065f405d2dcd",
+      "snapshot.rpt.gold": "bee72ee64737f14f64c343ead95e894401e76bed"
+    }
+  },
+  "103062212_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062212_01",
+    "sha1sums": {
+      "dimage.bin": "6ef82bf77d1a1be9118158824d16f28709eb0ef4",
+      "error_dump.rpt.gold": "1d442bdd4f33d1596545117a22cbbb324c405e42",
+      "iimage.bin": "5a8e3d9af9e6e7db7b39f4cc42b76bb62cb1d7ea",
+      "snapshot.rpt.gold": "082c8a9e9016aaf7797b9e4eac1eb0f3e1e5009a"
+    }
+  },
+  "103062214_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062214_01",
+    "sha1sums": {
+      "dimage.bin": "b4b1cc6b8ed7ca60ad281dfc5bc2f41d52b1604b",
+      "error_dump.rpt.gold": "396669787dc69738f9cca59a9fade373fb5e2b8c",
+      "iimage.bin": "1998b4bbe49a14787d05244cdfd94a65ddb65d9b",
+      "snapshot.rpt.gold": "6d0230b4da3bd09a70a72a7376b123906e526a4b"
+    }
+  },
+  "103062215_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062215_01",
+    "sha1sums": {
+      "dimage.bin": "6812703ec1461eac4aa256370983978e066fc9c3",
+      "error_dump.rpt.gold": "b9b8c07e048e2839cbe74770df94c7022503c0ac",
+      "iimage.bin": "45215196085b789d6cdd279c1193a1c238937240",
+      "snapshot.rpt.gold": "bd6bf6b8e275d7ca5ef52f0d8fbef5cab277ab03"
+    }
+  },
+  "103062217_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062217_01",
+    "sha1sums": {
+      "dimage.bin": "05fe405753166f125559e7c9ac558654f107c7e9",
+      "error_dump.rpt.gold": "e8435d86648706b94810d86d66e78cdc24358fcf",
+      "iimage.bin": "023a8d5af8374f70e938eab7693ba0ff73e4ec9b",
+      "snapshot.rpt.gold": "2c136be798444aecf95ca4b187b60c96fcb250af"
+    }
+  },
+  "103062218_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062218_01",
+    "sha1sums": {
+      "dimage.bin": "05fe405753166f125559e7c9ac558654f107c7e9",
+      "error_dump.rpt.gold": "640545e83426da1994ff25cba1ee294c70b8769e",
+      "iimage.bin": "15cb98480180be8b05d4beae96b17baca7080dcd",
+      "snapshot.rpt.gold": "fe0d6403d67cbdf0732ff4918930a813d213b5ce"
+    }
+  },
+  "103062223_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062223_01",
+    "sha1sums": {
+      "dimage.bin": "07121d20966a876d0b8d75736e9dfc469a6a190b",
+      "error_dump.rpt.gold": "aad83c0494e4a0827dbc99f19ed63b804051353e",
+      "iimage.bin": "373d4d8892f191497966cbd05973593bcbbc0855",
+      "snapshot.rpt.gold": "9a656eea8802299b44f659e296a76ffa4ae13666"
+    }
+  },
+  "103062224_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062224_01",
+    "sha1sums": {
+      "dimage.bin": "d4a14855c642b170b4bea1063308097874f8ae9d",
+      "error_dump.rpt.gold": "cffff855c4ebf994a5854c67c9ae95868d0c240b",
+      "iimage.bin": "e2f9eee032a867e8ff7dccf68c3eff266f709f29",
+      "snapshot.rpt.gold": "2abc5f3d07deb683ac26c6551490eefdb36b6b3c"
+    }
+  },
+  "103062226_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062226_01",
+    "sha1sums": {
+      "dimage.bin": "619573f69a7cef5bc95c6ab4917d673c14c462d7",
+      "error_dump.rpt.gold": "12cad99e377d830525bf689947dd3e6c110dc0c2",
+      "iimage.bin": "996085bfd40fff091008763ff0785aaceb270186",
+      "snapshot.rpt.gold": "e89968578a172085ff9a4519b6dc67e3868eac4e"
+    }
+  },
+  "103062227_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062227_01",
+    "sha1sums": {
+      "dimage.bin": "45e6e58bde0d85941d1c5cbbdde6566d8b276485",
+      "error_dump.rpt.gold": "ad163933b7384bad7c757f93f325e238ee5ef0d2",
+      "iimage.bin": "5bc480d99b6dbaab214fefdfb1e6d664430043b5",
+      "snapshot.rpt.gold": "425f58bcefa3fe4e99d94cb722044051e1486256"
+    }
+  },
+  "103062228_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062228_01",
+    "sha1sums": {
+      "dimage.bin": "d216a48086aef01ccb96b1d808b4ed0538e441d5",
+      "error_dump.rpt.gold": "bbc92277e28accd97bde57cf107a2cd195c7980c",
+      "iimage.bin": "9c5ada2d8de97bcfa3afd485a24bdedc3557c1af",
+      "snapshot.rpt.gold": "bf8a28ef63a0b7290d96b97310d5cbc4137aae85"
+    }
+  },
+  "103062232_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062232_01",
+    "sha1sums": {
+      "dimage.bin": "ffaa67c79235754295e6e98c4462c001588e3dea",
+      "error_dump.rpt.gold": "56fe4a80d1d5c460f1e5c211c2798ddce628cf2d",
+      "iimage.bin": "6c08e95d4f54894eec3e57e9f1c0372618c0870e",
+      "snapshot.rpt.gold": "5f47724e8f72c8efabdfbb3a83b5d39fddd34f64"
+    }
+  },
+  "103062237_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062237_01",
+    "sha1sums": {
+      "dimage.bin": "01eaf9366a122e0a580ea5d7ac265a3bf5ae3e7e",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "f642a5d94790f088fd6029c283b8e97ab734b867",
+      "snapshot.rpt.gold": "37c7b853e4e8216e2a7dd8bad868f7e2b7d76acd"
+    }
+  },
+  "103062240_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062240_01",
+    "sha1sums": {
+      "dimage.bin": "ddc8a30668d488d17a51d75280d98e806e71197c",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "9b880db764ea6d38214171b879349c91dbeee53e",
+      "snapshot.rpt.gold": "016f5786f558ad049935969b95b89bc0c846baea"
+    }
+  },
+  "103062302_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062302_01",
+    "sha1sums": {
+      "dimage.bin": "0d716fd62b2b6d6a73b99c176e59a3eb9f07f5a6",
+      "error_dump.rpt.gold": "637562484019be3cec2c59cb966c1e291bb95093",
+      "iimage.bin": "56ca2defbac133c5602fcc151c263c64839c268c",
+      "snapshot.rpt.gold": "3bde211fb65e383be1b928cd437a2fbb78265fe9"
+    }
+  },
+  "103062310_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062310_01",
+    "sha1sums": {
+      "dimage.bin": "ab1a246a967ef5f351cee58ffa65dc279a73f43a",
+      "error_dump.rpt.gold": "96243325364475177b8146f977021874ff808cc5",
+      "iimage.bin": "15a18f6c9906eb27e2b2cf8fb5f985620fb896ae",
+      "snapshot.rpt.gold": "84220c674f613b4e2e5493828e8111fef4821668"
+    }
+  },
+  "103062312_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062312_01",
+    "sha1sums": {
+      "dimage.bin": "05fdb9208174aba870deb827777350079086a04f",
+      "error_dump.rpt.gold": "9de6ca73d446a300227efa86969d82575d241eba",
+      "iimage.bin": "58deba4378047bd71c6ad29bd00f43b6cc99ed7e",
+      "snapshot.rpt.gold": "9ef4696751a14226300b1b4d828d2c10f56f24a1"
+    }
+  },
+  "103062313_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062313_01",
+    "sha1sums": {
+      "dimage.bin": "57394af19e657642f9ad279d17891df8b38b7468",
+      "error_dump.rpt.gold": "758e6ce783de03f635ef849c1caa28838048cd92",
+      "iimage.bin": "63714e14d451f4c0240c38703a930ad5ea7f5a56",
+      "snapshot.rpt.gold": "cf46f58bd53ae489bc0e83a11fa1c681a1aa9728"
+    }
+  },
+  "103062318_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062318_01",
+    "sha1sums": {
+      "dimage.bin": "956a141c190571c95c3b931868dbea99f2867ce2",
+      "error_dump.rpt.gold": "a324ab172e69ebe4687bda9015391ef47e911274",
+      "iimage.bin": "70eb6a08cda3c900c2c7c6b909a88dcdff905ce1",
+      "snapshot.rpt.gold": "c12e52a875053943d0976961083ad34eaf2c252d"
+    }
+  },
+  "103062319_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062319_01",
+    "sha1sums": {
+      "dimage.bin": "a906976e97f5763e37f0b2b06e90282b10f6b3af",
+      "error_dump.rpt.gold": "73f7518eaf071df9742ff24d2f9a389fde2bc82d",
+      "iimage.bin": "af02e1e8bb6e06410e99079792faed7bfc752121",
+      "snapshot.rpt.gold": "0d6f197381ad16974d96aa8cb2c0ae301aef0734"
+    }
+  },
+  "103062325_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062325_01",
+    "sha1sums": {
+      "dimage.bin": "fa1ebe0a49916e578e2cfabbe0d7f02aa9171ba5",
+      "error_dump.rpt.gold": "16ed5c1f65cd1a9b32e87a774e46b0d2204c767e",
+      "iimage.bin": "73693833111326e803b81ddbc2994413dacae023",
+      "snapshot.rpt.gold": "122ad6445468cda4709edfceef681d51a71956ee"
+    }
+  },
+  "103062327_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062327_01",
+    "sha1sums": {
+      "dimage.bin": "c02dca03f707136d5a79ac8c14b0f0c6d9143e9a",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "7ad37196ee3dcaa348a3c4b913995fb0abc1c927",
+      "snapshot.rpt.gold": "7cb60fe3138a5022cde59f654dbea1976b499e54"
+    }
+  },
+  "103062331_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062331_01",
+    "sha1sums": {
+      "dimage.bin": "ba0440291f3defe70f09c01e26ad44340c321606",
+      "error_dump.rpt.gold": "95f4fa757cd0b41fee5b85388fb5d59786430574",
+      "iimage.bin": "0f121a9ef404572680bfb90369eb751e1b8695af",
+      "snapshot.rpt.gold": "39a08c2b0f777a7219bced12b0da960d8015bc1f"
+    }
+  },
+  "103062334_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062334_01",
+    "sha1sums": {
+      "dimage.bin": "64263d00de8e965696bf5088ed222446ed9c22d8",
+      "error_dump.rpt.gold": "724acfd6f2c507ef6f943eee751dff75de1ce57c",
+      "iimage.bin": "30244303e7ff30839d9119cd1b2bb8054286f5d2",
+      "snapshot.rpt.gold": "a6e75e2e59f230c5f774b5583fcb621df5f2de95"
+    }
+  },
+  "103062336_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062336_01",
+    "sha1sums": {
+      "dimage.bin": "ebd031d1dc766313518d99c4395660f81c802eab",
+      "error_dump.rpt.gold": "ad52f196062ff68932ae32b4c2401d32c95bcb28",
+      "iimage.bin": "229c311a4d1427522d4b395c7c254aab60a07470",
+      "snapshot.rpt.gold": "0d2a21a74b3f7a5286afb9f0e29d7b59fdabe8b5"
+    }
+  },
+  "103062338_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062338_01",
+    "sha1sums": {
+      "dimage.bin": "f4880485e9a9847f380ac241de39d6c369126dd9",
+      "error_dump.rpt.gold": "35ed3ead0b4c8c8353de1f79190b8b10b9f89e04",
+      "iimage.bin": "c8f802e878e5d988531b3696a5f5dd58c8174686",
+      "snapshot.rpt.gold": "ae3c1dfaf6a2625abf6c702f61ec4325f897102e"
+    }
+  },
+  "103062372_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062372_01",
+    "sha1sums": {
+      "dimage.bin": "144a71aa41004a06a7e8e0f136bd524d0cefdf8e",
+      "error_dump.rpt.gold": "fb29e49beea5e69044f57afed2951610030126fa",
+      "iimage.bin": "d36d93b5cba938f555d7e21eddb412a862378d39",
+      "snapshot.rpt.gold": "00a5b7a030e1987ed25899f572f27079116b9130"
+    }
+  },
+  "103062391_01": {
+    "directory": "testcases/2-Student_valid_testcase/103062391_01",
+    "sha1sums": {
+      "dimage.bin": "94bcaaa9d6663e7717473555f868ab671ec8db66",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "c466d656aee23e515b7a296713a3531000435e5d",
+      "snapshot.rpt.gold": "298bd69b518fc8399f5026fcf5f13547ffb06aca"
+    }
+  },
+  "103070021_01": {
+    "directory": "testcases/2-Student_valid_testcase/103070021_01",
+    "sha1sums": {
+      "dimage.bin": "f578d97aa56418d94903da0a794552c750178e7c",
+      "error_dump.rpt.gold": "a65da2800c5f518cb6388c7d83ed2b27c2316f5c",
+      "iimage.bin": "a0f73e46fe8285d970aab121e790df979c0b0bc6",
+      "snapshot.rpt.gold": "d9b3b6074b093fe0a23a9e83c4afa666e6e50fad"
+    }
+  },
+  "103070028_01": {
+    "directory": "testcases/2-Student_valid_testcase/103070028_01",
+    "sha1sums": {
+      "dimage.bin": "0c7a6eae2fc0a3c68bd4d36ff39e0d30438cba8c",
+      "error_dump.rpt.gold": "b404d95ac0dd91a3c19333bfd5f0883744205173",
+      "iimage.bin": "5ce7c57dad36fd48a052c078308cbc9c6794a466",
+      "snapshot.rpt.gold": "3762e1efb578fb8cbc5fe24a8e9a033611cd61c8"
+    }
+  },
+  "103070038_01": {
+    "directory": "testcases/2-Student_valid_testcase/103070038_01",
+    "sha1sums": {
+      "dimage.bin": "cce8216a5ec787badb6ebbb68bf501989f5a9d69",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "6eeafd7cd9b77d938cf472b5a29813fcc99caca3",
+      "snapshot.rpt.gold": "bc93b4a4ae50a62c3b379fe26ad3b15115bc407c"
+    }
+  },
+  "branch": {
+    "directory": "testcases/0-open_testcase/branch",
+    "sha1sums": {
+      "dimage.bin": "309c55bf77e4fb74cbf457c78c59633638316820",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "c3bb44da752d31b73f45ceabeb4c3db97d5c0724",
+      "snapshot.rpt.gold": "9b36aae02b91f85faad8a07389b1f6f166fe169e"
+    }
+  },
+  "bubble_sort": {
+    "directory": "testcases/1-hidden_testcase/bubble_sort",
+    "sha1sums": {
+      "dimage.bin": "785f99a6d95d34cecf3fe33531a98ae25357c431",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "3234c537bc4b769b6c74184af06ba2a59568b6cf",
+      "snapshot.rpt.gold": "eadbb74c05ed9dbf34f2fee73e06be2e8fffad4e"
+    }
+  },
+  "error1": {
+    "directory": "testcases/1-hidden_testcase/error1",
+    "sha1sums": {
+      "dimage.bin": "967326b0114dd60b9aff9f66d96957295ca887f9",
+      "error_dump.rpt.gold": "60086097ae4836881c71e21be8f00076d67fc532",
+      "iimage.bin": "415ccca03c5d80893809f76181ac92e680aee754",
+      "snapshot.rpt.gold": "0f7f607b7f6e65b279af2b6892c8d1fce481872a"
+    }
+  },
+  "error2": {
+    "directory": "testcases/0-open_testcase/error2",
+    "sha1sums": {
+      "dimage.bin": "ffaa67c79235754295e6e98c4462c001588e3dea",
+      "error_dump.rpt.gold": "7c75a2fb5afa868a0983bb33f68800e5a5017693",
+      "iimage.bin": "1e806fc0b1a93cc80d5312af92bf51e6731ea40a",
+      "snapshot.rpt.gold": "012bb3aeda1caeefb657dfd02707f2039d6b56f9"
+    }
+  },
+  "error3": {
+    "directory": "testcases/1-hidden_testcase/error3",
+    "sha1sums": {
+      "dimage.bin": "ffaa67c79235754295e6e98c4462c001588e3dea",
+      "error_dump.rpt.gold": "3eb35e52227f42103afd83d70bafeefe7d3bcf28",
+      "iimage.bin": "6a2d602c712f54b427662362f39fee874c74fa6c",
+      "snapshot.rpt.gold": "2a5eef7b1fce691f33707e8c579f8cecd76b9411"
+    }
+  },
+  "fd03357293_01": {
+    "directory": "testcases/2-Student_valid_testcase/fd03357293_01",
+    "sha1sums": {
+      "dimage.bin": "f23b25b95bbb18273a6cc1b4ced33dee937ff8af",
+      "error_dump.rpt.gold": "5afd8b65f9a936018c032ae9d7cea580be44d1b1",
+      "iimage.bin": "7e06ba99a1023a39b31a2b2c322aee7662f8bf8f",
+      "snapshot.rpt.gold": "10459b563c51489369e4fc8471a5b21e84a57d57"
+    }
+  },
+  "fib_dp": {
+    "directory": "testcases/0-open_testcase/fib_dp",
+    "sha1sums": {
+      "dimage.bin": "e0a4e0147c09a75a285eb6c2823d171dfbaa2585",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "215158daf8380230568ed58b92dbb275d7f14093",
+      "snapshot.rpt.gold": "f06404a19220de761477cec0669ba7ce81e38f42"
+    }
+  },
+  "func": {
+    "directory": "testcases/0-open_testcase/func",
+    "sha1sums": {
+      "dimage.bin": "d6ad227efd124989a730273c640fd57c5fe32bf6",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "fc78e4b56ac2b289f57eecb7a2080fb9baa03de7",
+      "snapshot.rpt.gold": "44dbcdf3f8353d6b12ab00c073af10203ba70d56"
+    }
+  },
+  "multiply": {
+    "directory": "testcases/1-hidden_testcase/multiply",
+    "sha1sums": {
+      "dimage.bin": "8e5b481dc1dd5b66cdc9858e0915f58aaa484ff5",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "c466d656aee23e515b7a296713a3531000435e5d",
+      "snapshot.rpt.gold": "3f1ba2f2ef1306c03844e698cd73c0731273bfb0"
+    }
+  },
+  "recur": {
+    "directory": "testcases/0-open_testcase/recur",
+    "sha1sums": {
+      "dimage.bin": "f4880485e9a9847f380ac241de39d6c369126dd9",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "32699b357a9ffa680a4e920593cb61195dcbe89b",
+      "snapshot.rpt.gold": "253dce48e812b33590e0bdb62961a2ac705bd3bd"
+    }
+  },
+  "seq": {
+    "directory": "testcases/1-hidden_testcase/seq",
+    "sha1sums": {
+      "dimage.bin": "f578d97aa56418d94903da0a794552c750178e7c",
+      "error_dump.rpt.gold": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "iimage.bin": "e47b2d0a7532cdf5553c87d935acf5189d742234",
+      "snapshot.rpt.gold": "7fdfa49de4fcf4cd75388fc840c249dec61f6c82"
+    }
+  }
+}
