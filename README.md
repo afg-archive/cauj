@@ -11,7 +11,7 @@ Clone this repo and then:
 `./cauj.py path/to/single_cycle`
 
 or at the project directory:
-`path/to/cauj.py ./single_cycle`
+`path/to/cauj.py single_cycle`
 
 type `./cauj.py --help` for more options, or see below
 
