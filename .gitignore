@@ -1,2 +1,4 @@
 error_dump.rpt*
 snapshot.rpt*
+!error_dump.rpt
+!snapshot.rpt

@@ -144,7 +144,7 @@ def discover_testcases():
 
 
 def compare_and_diff(prefix, limit_lines):
-    fromfile = prefix + '.gold'
+    fromfile = prefix
     tofile = prefix + '.user'
     same = filecmp.cmp(fromfile, tofile, shallow=False)
     if same:
@@ -171,14 +171,12 @@ def main(executable, limit_diff, mute, repeat, reduce, timeout, these):
     else:
         testcases = sorted(discover_testcases(), key=lambda x: x.directory)
     print(len(testcases), 'testcases found')
-    golden = Simulator(os.path.join(basedir, 'vendor/single_cycle'), 'gold')
     total_time = 0
     passed_count = 0
     failed = []
     errored = []
     for testcase in testcases:
         print(' {} '.format(testcase.name).center(79, '='))
-        Execution(golden, testcase).run()
         user = Simulator(executable, 'user')
         times = []
         for i in range(repeat):
