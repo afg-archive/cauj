@@ -11,9 +11,9 @@ Clone this repo and then:
 `./cauj.py path/to/single_cycle`
 
 or at the project directory:
-`path/to/cauj.py single_cycle`
+`path/to/cauj.py ./single_cycle`
 
-type `./cauj.py --help` for more options
+type `./cauj.py --help` for more options, or see below
 
 ## Options
 
@@ -21,7 +21,7 @@ type `./cauj.py --help` for more options
 
 `--diff` show diff when the output is incorrect.
 
-`--diff=N` show diff when the output is incorrect, but limit diff's output to N lines.
+`--diff N` show diff when the output is incorrect, but limit diff's output to N lines.
 
 `--timeout SECONDS` time limit on each testcase, defaults to 5.
 
@@ -36,7 +36,7 @@ type `./cauj.py --help` for more options
 ## Typical output
 
 ```
-...
+75 testcases found
 ...
 ...
 ================================= 103070038_01 ================================
@@ -59,5 +59,5 @@ Total time of passed tests: 1.9783899784088135
 Errored:
 103062108_01 103062114_01 103062214_01 103062372_01
 Failed:
-multiply seq 102065512_01 102070021_01 102070028_01 102081005_01 103000099_01 103060007_01 103060011_01 103062143_01 103062173_01 103062224_01 103062310_01 103062318_01 103062327_01 103062331_01 103062391_01 103070021_01 fd03357293_01
+multiply seq 102065512_01 102070021_01 102070028_01 102081005_01 103000099_01 (... ommitted)
 ```
