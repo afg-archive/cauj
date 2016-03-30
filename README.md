@@ -1,5 +1,5 @@
 # cauj
-Computer Architecture Project 1 Unofficial Judge
+Computer Architecture Project 1 Unofficial Judge (& Time Measurement Tool)
 
 ## Requirements
 

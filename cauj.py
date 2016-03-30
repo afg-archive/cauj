@@ -243,7 +243,7 @@ if __name__ == '__main__':
         sys.argv.append('-h')
 
     parser = argparse.ArgumentParser(
-        description='Computer Architecture Project 1 Unofficial Judge'
+        description='Computer Architecture Project 1 Unofficial Judge (& Time Measurement Tool)'
     )
     parser.add_argument('executable', help='path to single_cycle executable')
     parser.add_argument(
