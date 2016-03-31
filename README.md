@@ -39,17 +39,17 @@ type `./cauj.py --help` for more options, or see below
 75 testcases found
 ...
 ...
-================================= 103070038_01 ================================
+=== (74/75) 103070038_01 ======================================================
 Running /home/afg/simulator/single_cycle
 -> user returned 0 in 0.003964 seconds
 -> snapshot.rpt   OK
 -> error_dump.rpt OK
-================================ fd03357293_01 ================================
+=== (75/75) fd03357293_01 =====================================================
 Running /home/afg/simulator/single_cycle
 -> user returned 0 in 0.0043 seconds
 => snapshot.rpt   Differ
 -> error_dump.rpt OK
-=================================== SUMMARY ===================================
+=== SUMMARY ===================================================================
 45/75 testcases passed
 Total time of passed tests: 1.9783899784088135
 Errored:
